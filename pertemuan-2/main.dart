@@ -8,11 +8,7 @@ String tentukanPengeluaranBelanja(double nilai) {
   }
 }
 
-
 void main() {
-
- 
-
   print(tentukanPengeluaranBelanja(100000));
   print(tentukanPengeluaranBelanja(70000));
   print(tentukanPengeluaranBelanja(0000));
