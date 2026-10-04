@@ -7,7 +7,7 @@
 ---
 
 
-## 📑 Document Analysis
+## Document Analysis
 
 ### 1. Problem Statement
 Membuat simulasi sistem peminjaman dan pengembalian buku di Perpustakaan.  
