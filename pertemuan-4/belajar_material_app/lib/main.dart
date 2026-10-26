@@ -12,23 +12,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplikasi Mahasiswa', // cara ubah title aplikasi
+      title: 'Aplikasi Mahasiswa',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.indigo,
+          seedColor: Colors
+              .green, //  Ganti seedColor menjadi Colors.green
           useMaterial3: true,
         ),
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Belajar Flutter'),
+          title: const Text(
+            'Dashboard Mahasiswa',
+          ), // Ngubah judul AppBar
         ),
         body: const Center(
-          child: Text(
-            'Halo, Nama Saya Given', // untuk ngubah teks di tengah menjadi nama masing-masing
-            style: TextStyle(fontSize: 20),
-          ),
+          child: Text('Halo, Nama Saya Given', style: TextStyle(fontSize: 20)),
         ),
       ),
     );
