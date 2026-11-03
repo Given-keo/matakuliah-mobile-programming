@@ -1,0 +1,8 @@
+include: package:flutter_lints/flutter.yaml
+
+
+# flutter run -t .\contoh\namafile.dart
+# Contoh modul memakai print() untuk menampilkan hasil di konsol/DartPad.
+linter:
+  rules:
+    avoid_print: false
